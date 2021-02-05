@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: NimaTest
+  description: |
+    This is the test for O2App template
+  annotations:
+    # github.com/project-slug: Tradeshift/O2App
+    # sentry.io/project-slug: O2App
+    # backstage.io/kubernetes-id: O2App
+spec:
+  type: service
+  owner: app-enablement
+  lifecycle: experimental
